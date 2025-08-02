@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kibrisky's Discord Bot Service</title>
+    <!-- Inter Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-gray-800 py-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-400">kibrisky's Bots</a>
+            <nav class="space-x-4">
+                <a href="#custom" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">Custom Bots</a>
+                <a href="#contact" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">Contact</a>
+                <a href="https://discord.com/oauth2/authorize?client_id=1395479887309045922&permissions=8&integration_type=0&scope=bot+applications.commands"
+                   class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">Invite Bot</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="py-16">
+        <section class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4">
+                The Ultimate Bot for Your Discord Server
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                Enhance your community with powerful, easy-to-use features from our free public bot, created by <span class="text-blue-400 font-bold">kibrisky</span>.
+            </p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1395479887309045922&permissions=8&integration_type=0&scope=bot+applications.commands"
+               class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                Invite Our Free Bot
+            </a>
+        </section>
+    </main>
+
+    <!-- Features Section -->
+    <section class="bg-gray-800 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12">Key Features</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                
+                <!-- Feature Card: Anti-Nuke -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-xl">
+                    <svg class="w-12 h-12 text-blue-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.21a2 2 0 010 2.828l-5.657 5.657a2 2 0 01-2.828 0l-5.657-5.657a2 2 0 012.828-2.828l3.43 3.43L12 9.879l3.43-3.43a2 2 0 012.828 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Anti-Nuke</h3>
+                    <p class="text-gray-300">Protect your server from malicious attacks and raids with our advanced security system.</p>
+                </div>
+                
+                <!-- Feature Card: Moderation -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-xl">
+                    <svg class="w-12 h-12 text-blue-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Moderation</h3>
+                    <p class="text-gray-300">Maintain a clean and safe environment with powerful, customizable moderation tools.</p>
+                </div>
+
+                <!-- Feature Card: Games -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-xl">
+                    <svg class="w-12 h-12 text-blue-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.977 2.887a1 1 0 00-.364 1.118l1.519 4.674c.3.921-.755 1.688-1.54 1.118l-3.977-2.887a1 1 0 00-1.176 0l-3.977 2.887c-.785.57-1.84-.197-1.54-1.118l1.519-4.674a1 1 0 00-.364-1.118L2.923 9.409c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519-4.674z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Games</h3>
+                    <p class="text-gray-300">Keep your members engaged with a variety of fun and interactive games.</p>
+                </div>
+
+                <!-- Feature Card: Utility -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-xl">
+                    <svg class="w-12 h-12 text-blue-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Utility</h3>
+                    <p class="text-gray-300">Access a wide range of helpful commands for everyday server management and fun.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Bots Section -->
+    <section id="custom" class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Want a Custom Bot?</h2>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+                The public bot is great, but if your server has unique needs, I can build a bot tailored to your exact specifications.
+            </p>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+                From simple automation to complex server integrations, I can create the perfect bot for your community.
+            </p>
+            <a href="#contact"
+               class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                Discuss Your Custom Bot
+            </a>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="bg-gray-800 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">What Our Users Are Saying</h2>
+            <p class="text-center text-gray-400 mb-12">Names and profile pictures have been censored for user privacy.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Review 1 -->
+                <div class="bg-gray-700 p-4 rounded-lg shadow-xl">
+                    <img src="https://i.imgur.com/mwBD4bs.png" alt="Discord bot review" class="w-full h-auto rounded-lg mb-4">
+                    <p class="text-gray-300">A user praises the bot's functionality and reliability.</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-gray-700 p-4 rounded-lg shadow-xl">
+                    <img src="https://i.imgur.com/3hPSDYR.png" alt="Discord bot review" class="w-full h-auto rounded-lg mb-4">
+                    <p class="text-gray-300">Another positive review highlighting the bot's useful features.</p>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="bg-gray-700 p-4 rounded-lg shadow-xl">
+                    <img src="https://i.imgur.com/jVcsJQx.png" alt="Discord bot review" class="w-full h-auto rounded-lg mb-4">
+                    <p class="text-gray-300">A third review showing satisfaction with the bot's performance.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Contact Me</h2>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-4">
+                To inquire about a custom bot or for any other questions, feel free to reach out to me directly on Discord.
+            </p>
+            <div class="inline-block bg-gray-800 px-6 py-3 rounded-lg shadow-md">
+                <p class="text-2xl font-bold text-blue-400">Discord: kibrisky</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 py-8 text-center text-gray-500">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 kibrisky's Bots. All rights reserved.</p>
+            <p>Made with ❤️ by kibrisky</p>
+        </div>
+    </footer>
+
+</body>
+</html>
